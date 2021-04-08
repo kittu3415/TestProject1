@@ -15,6 +15,7 @@ public class ClientController
   @GetMapping(value="/demo1")
   public String display1()
   {
+	  System.out.println("hello");
 	  return "Go Corona";
   }
   @GetMapping(value="/")
